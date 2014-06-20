@@ -1,0 +1,9 @@
+h1 New user
+
+.new-user
+  =simple_form_for @user_form do |f|
+    =f.input :name
+    =f.input :password
+    =f.input :desc
+    =f.input :phone
+    =f.submit
